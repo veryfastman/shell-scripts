@@ -1,3 +1,0 @@
-#!/bin/sh
-
-cd $(find . -type d -path '*/.*' -prune -o -not -name '.*' -type d -print | fzf)
